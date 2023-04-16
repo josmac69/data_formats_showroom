@@ -12,12 +12,9 @@ Apache Avro is a language-agnostic, platform-neutral data serialization format. 
 
 Let's create a simple example using Avro with Python. We will define a Person record with some fields and demonstrate serialization and deserialization.
 
-* Install the avro-python3 library:
+* Install the avro-python3 library: `pip install avro-python3`
+* Create a file named person.avsc:
 ```
-pip install avro-python3
-Create a file named person.avsc:
-json
-Copy code
 {
   "type": "record",
   "name": "Person",
